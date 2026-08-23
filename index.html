@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پورتفولیو | متخصص طراحی وب و هوش مصنوعی</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            background-color: #111;
+            color: #eee;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            padding: 25px 0;
+            border-bottom: 1px solid #333;
+            background: #111;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .logo span {
+            color: #00d4ff;
+        }
+
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.4rem;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        .hero .subtitle {
+            font-size: 1.2rem;
+            color: #00d4ff;
+            margin-bottom: 25px;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: 0 auto 35px;
+            color: #ccc;
+            font-size: 1.05rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #00d4ff;
+            color: #111;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 0;
+            border-top: 1px solid #222;
+        }
+
+        .section-title {
+            font-size: 1.6rem;
+            margin-bottom: 30px;
+            color: #fff;
+            border-right: 4px solid #00d4ff;
+            padding-right: 12px;
+        }
+
+        .about-text p {
+            margin-bottom: 18px;
+            color: #ccc;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-card {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .skill-card h3 {
+            color: #00d4ff;
+            margin-bottom: 8px;
+        }
+
+        .skill-card p {
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .project-card h3 {
+            margin-bottom: 8px;
+            color: #fff;
+        }
+
+        .project-card p {
+            color: #aaa;
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #333;
+            color: #00d4ff;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            margin-left: 5px;
+        }
+
+        .contact-box {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .contact-box p {
+            color: #aaa;
+            margin-bottom: 25px;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 20px;
+            border: 1px solid #00d4ff;
+            color: #00d4ff;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #222;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">مهرشاد<span>.</span>توسعه</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>طراح وب و متخصص هوش مصنوعی</h1>
+            <div class="subtitle">کمک می‌کنم کسب‌وکارها سریع‌تر رشد کنن</div>
+            <p>
+                من مهرشاد هستم، دانشجوی نرم‌افزار و فریلنسر دیجیتال.
+                با ترکیب طراحی وب، فتوشاپ و قدرت هوش مصنوعی،
+                وب‌سایت و اپلیکیشن‌هایی می‌سازم که هم زیبا باشن و هم پول‌ساز.
+            </p>
+            <a href="#contact" class="btn">همین الان پروژه بده</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">درباره من</h2>
+            <div class="about-text">
+                <p>
+                    سلام، من مهرشاد هستم. ۲۵ سالمه و اهل تهران.
+                    دانشجوی نرم‌افزار هستم
+                </p>
+                <p>
+                    از بچگی عاشق ساختن چیزای جدید بودم. الان تمام تمرکزم روی اینه که
+                    با مهارت‌های طراحی وب، فتوشاپ و هوش مصنوعی،
+                    پروژه‌هایی بسازم که واقعاً به درد مشتری بخوره و درآمد پایدار ایجاد کنه.
+                </p>
+                <p>
+                    معتقدم بهترین کار وقتی انجام می‌شه که هم کیفیت بالا داشته باشه
+                    و هم سریع تحویل داده بشه. برای همینه که از هوش مصنوعی هوشمندانه استفاده می‌کنم.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">مهارت‌ها</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>طراحی وب‌سایت</h3>
+                    <p>طراحی و پیاده‌سازی وب‌سایت‌های مدرن و ریسپانسیو</p>
+                </div>
+                <div class="skill-card">
+                    <h3>هوش مصنوعی</h3>
+                    <p>استفاده حرفه‌ای از ابزارهای AI برای تولید محتوا و کدنویسی</p>
+                </div>
+                <div class="skill-card">
+                    <h3>طراحی گرافیک</h3>
+                    <p>فتوشاپ، پست اینستاگرام، لوگو و هویت بصری</p>
+                </div>
+                <div class="skill-card">
+                    <h3>ساخت اپلیکیشن</h3>
+                    <p>ساخت اپ‌های ساده با کمک هوش مصنوعی و اپ‌سازها</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">نمونه‌کارها</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>وب‌سایت کافه</h3>
+                    <p>طراحی کامل وب‌سایت برای یک کافه با منوی دیجیتال</p>
+                    <span class="tag">طراحی وب</span>
+                    <span class="tag">UI</span>
+                </div>
+                <div class="project-card">
+                    <h3>لندینگ‌پیج فروش</h3>
+                    <p>صفحه فرود حرفه‌ای برای فروش دوره آموزشی</p>
+                    <span class="tag">لندینگ‌پیج</span>
+                </div>
+                <div class="project-card">
+                    <h3>پکیج اینستاگرام</h3>
+                    <p>طراحی هویت بصری و پست‌های آماده</p>
+                    <span class="tag">فتوشاپ</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact-box">
+                <h2 class="section-title" style="border:none; padding:0; margin-bottom:15px;">بیا با هم کار کنیم</h2>
+                <p>
+                    اگر برای کسب‌وکارت به وب‌سایت، طراحی یا هوش مصنوعی نیاز داری،
+                    خوشحال می‌شم کمکت کنم.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:mehrshadmasoomi00@gmail.com">ایمیل</a>
+                    <a href="https://instagram.com/mehrshadmmss1" target="_blank">اینستاگرام</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            © ۱۴۰۵ - طراحی و توسعه با دقت
+        </div>
+    </footer>
+
+</body>
+</html>
